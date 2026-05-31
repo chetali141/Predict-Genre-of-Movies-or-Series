@@ -94,7 +94,7 @@ def plot_comparison(all_results: dict) -> None:
     ensure_dirs(PLOTS_DIR)
 
     # Only show upward metrics in comparison (exclude Hamming Loss)
-    compare_metrics = ["Sample F1", "Macro F1", "Micro F1", "Subset Acc"]
+    compare_metrics = ["Sample F1", "Subset Acc"]
     models = list(all_results.keys())
     x = np.arange(len(compare_metrics))
     width = 0.22
