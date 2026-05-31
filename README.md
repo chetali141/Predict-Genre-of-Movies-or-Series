@@ -25,7 +25,7 @@ pip3 install -r requirements.txt
 Loads the raw CSV, runs EDA (saves plots), cleans data, builds TF-IDF + OHE features, and saves train/test splits.
 
 ```bash
-python3 src/preprocess.py --data_path data/tv-shows.csv
+python3 src/preprocess.py --data_path dataset/tv-shows.csv
 ```
 
 ### Step 2 — Train

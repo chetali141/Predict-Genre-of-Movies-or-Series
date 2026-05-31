@@ -6,4 +6,3 @@ seaborn
 wordcloud
 scipy
 shap
-pypickle
