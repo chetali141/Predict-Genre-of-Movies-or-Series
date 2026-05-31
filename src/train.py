@@ -1,17 +1,5 @@
 """
 train.py - Train a multi-label genre classification model on preprocessed features.
-
-Supported models:
-  lr - Logistic Regression  (fast, strong baseline, SHAP-compatible)
-  svm - Linear SVC           (fast, usually best accuracy on TF-IDF)
-  rf - Random Forest        (slower, useful for non-linear patterns)
-
-The trained model is saved to outputs/model_<name>.pkl.
-
-Usage:
-    python src/train.py --model lr  --seed 42
-    python src/train.py --model svm --seed 42
-    python src/train.py --model rf  --seed 42
 """
 
 import argparse

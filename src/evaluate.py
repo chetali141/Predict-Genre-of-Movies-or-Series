@@ -1,18 +1,5 @@
 """
-evaluate.py - Evaluate a trained model and produce:
-  - Console: per-label classification report + summary metric table
-  - plots/eval_<model_name>_metrics.png  : bar chart of all 4 metrics
-  - plots/eval_comparison.png            : comparison across all evaluated models
-                                           (auto-generated when --compare flag is set)
-
-Usage:
-    # Evaluate a single model
-    python src/evaluate.py --model_path outputs/model_lr.pkl  --model_name lr
-    python src/evaluate.py --model_path outputs/model_svm.pkl --model_name svm
-    python src/evaluate.py --model_path outputs/model_rf.pkl  --model_name rf
-
-    # After evaluating all three, produce the comparison chart
-    python src/evaluate.py --compare
+evaluate.py - Evaluate a trained model.
 """
 
 import argparse

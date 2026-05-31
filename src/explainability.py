@@ -1,21 +1,5 @@
 """
-explainability.py - Model explainability analysis using:
-  1. Top-N coefficient bar charts   (works for lr and svm)
-  2. SHAP LinearExplainer summary   (works for lr and svm)
-
-Produces per-genre plots saved to plots/.
-
-Usage:
-    # Coefficient plots for Logistic Regression on two genres
-    python src/explainability.py --model_path outputs/model_lr.pkl \
-                                  --model_name lr \
-                                  --genres "Comedies,Dramas,Documentaries"
-
-    # Also run SHAP (slower, ~1 min for 100 test samples)
-    python src/explainability.py --model_path outputs/model_lr.pkl \
-                                  --model_name lr \
-                                  --genres "Comedies,Dramas" \
-                                  --shap
+explainability.py - Model explainability analysis.
 """
 
 import argparse

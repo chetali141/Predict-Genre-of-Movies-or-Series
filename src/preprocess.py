@@ -1,20 +1,6 @@
 """
 preprocess.py - Handles all data loading, exploratory data analysis (EDA), cleaning, 
 feature engineering, and train/test splitting.
-
-Produces:
-  - plots/missing_values.png
-  - plots/top_genres.png
-  - plots/movies_vs_tvshows.png
-  - plots/release_year_distribution.png
-  - plots/content_distribution.png
-  - plots/wordcloud.png
-  - outputs/tfidf.pkl
-  - outputs/encoder.pkl
-  - outputs/mlb.pkl
-
-Usage:
-    python src/preprocess.py --data_path data/tv-shows.csv
 """
 
 import argparse
